@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSorter", "ColorSorter\ColorSorter.csproj", "{B60B2908-D96E-446F-8F87-13D09C6FD288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSort.Tests", "ColorSort.Tests\ColorSort.Tests.csproj", "{35949586-0C1A-43F6-9E52-78C9B2F6F186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B60B2908-D96E-446F-8F87-13D09C6FD288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60B2908-D96E-446F-8F87-13D09C6FD288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60B2908-D96E-446F-8F87-13D09C6FD288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60B2908-D96E-446F-8F87-13D09C6FD288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35949586-0C1A-43F6-9E52-78C9B2F6F186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35949586-0C1A-43F6-9E52-78C9B2F6F186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35949586-0C1A-43F6-9E52-78C9B2F6F186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35949586-0C1A-43F6-9E52-78C9B2F6F186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35949586-0C1A-43F6-9E52-78C9B2F6F186} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29EF18EB-F361-4DD2-912C-86E62CD15E02}
+	EndGlobalSection
+EndGlobal
